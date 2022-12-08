@@ -1,0 +1,22 @@
+.separacion{
+    margin-top: 20px;
+}
+body {
+    background: #f8f9fa;
+    
+  }
+
+section{
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+  /*barra*/
+html {
+    overflow-x: hidden
+}
+
+@media (hover:none) {
+    body {
+        overflow-x: hidden
+    }
+}

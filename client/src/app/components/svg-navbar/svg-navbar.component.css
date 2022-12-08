@@ -1,0 +1,158 @@
+  /*barra*/
+  html {
+    overflow-x: hidden
+}
+
+@media (hover:none) {
+    body {
+        overflow-x: hidden
+    }
+}
+
+.curved{
+    background-color: #EFF0FA;
+}
+.curved svg{
+    display: block;
+}
+.curved.upper{
+    background: linear-gradient(#1cb5e0,white);
+}
+
+.featurette{
+    margin: 10px;
+}
+.abajo{     
+    z-index: 0;
+}
+.arriba{
+    position:  relative;
+    left: 20px;
+    bottom: 330px;
+    z-index: 1;    
+}
+
+
+/*Prueba */
+.prueba{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+.color1{
+    background-color: #FFF1F2;
+}
+.curves{
+    position: absolute;
+    height: 225px;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.custom-shape-divider-top-1655747149 {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655747149 svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 1.3px);
+    height: 110px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1655747149 .shape-fill {
+    fill: #EFF0FA;
+}
+
+.btn-primary{
+    background-color: #314f75;
+    border-color: #314f75;
+}
+.btn-outline-secondary{
+    border-color: #314f75;
+    color: #314f75;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #314f75;
+    color: white;
+}
+
+/*svg*/
+.degradado{
+    background: linear-gradient(#150547,#EFF0FA);
+}
+.colorsecundario{
+    background-color: #314f75;
+}
+.color3{
+    background-color: #CAFC12;
+}
+.textcolor{
+     color: white;
+}
+.textcolorsecundario{
+    color: #6c63ff;
+}
+.botonsecundario{
+    background-color: #6c63ff;
+    color: white;
+}
+
+.imgredonda {
+    width:100px;
+    height:100px;
+    border-radius:150px;
+}
+.centerbtn{
+    text-align: center;
+}
+
+.targetinfo{
+     
+    text-align: center;
+    padding: 1em;
+  }
+.justyf{
+    text-align: center;
+    justify-content: center;
+}
+.padd{
+    padding: 60px;
+}
+
+.whatsapp{
+    background-color: #47C757;;
+}
+
+/*SVG CURVE*/
+.curved{
+    background: linear-gradient(#2F2F2F,#273B54);
+    color: white;
+    text-align: center;
+}
+
+.curved svg{
+    display: block;
+}
+.curved.upper{
+    background: linear-gradient(#1cb5e0,#150547);
+}
+
+/*SVG CURVE*/
+
+
+.img-thumbnail{
+    margin: 15px;
+}
+/*svg*/

@@ -1,0 +1,48 @@
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+
+.btn{
+    background-color: #273B54;
+    border-color: #273B54;
+    color: white;
+}
+.paleta{
+    color: #2F2F2F;
+    color: #273B54;
+    color: #273B54;
+    color: #FEE8C8;
+}
+
+/*barra*/
+html {
+    overflow-x: hidden
+}
+
+@media (hover:none) {
+    body {
+        overflow-x: hidden
+    }
+}
+
+
+/*Cambia color navbar dependiendo resolucion*/
+@media screen and (max-width: 992px) {
+    .navbar-expand-lg{
+        background-color: white;
+    }
+
+    
+}
+
+
+
+
+
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #212529;
+}

@@ -1,0 +1,86 @@
+
+<div class="container py-5 pt-5 modelos"  id="modelos">
+  <div class="row">
+    
+    <div class="col-md-6">
+      <div class="col-md-4 order-md-1 col-lg-3 sidebar-filter">
+        <h2 class="mt-0 mb-5">Especificaciones</h2>
+        <!--<h6 class="text-uppercase font-weight-bold mb-3">Categorias</h6>-->
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Marcas
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <div class="form-check" *ngFor="let marca of marcas">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="marca-title">
+                  <label class="form-check-label" for="marca-title">
+                    {{marca.title}}
+                  </label>
+                </div>
+  
+          
+                                                       
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+  
+      
+        
+       <!-- <div class="mt-2 mb-2 pl-2">
+          <a href="#" class="btn btn-lg btn-block btn-primary mt-5" id="reload">Actualizar</a>
+        </div>      -->
+        
+      </div>
+    </div>
+    <div class="col-md-4">     
+      <div class="card text-black h-100 border-0 shadow-lg">
+      <i class="fab fa-apple fa-lg pt-3 pb-1 px-3"></i>          
+        <img src="../../../assets/images/marino2.jpg" class="card-img-top rounded" alt="Card image cap">
+      <!--<div class="card-body">
+        <div class="text-center">
+          <h5 class="card-title">PLAYERYTEES</h5>
+          <p class="text-muted mb-4">POLO MOD.900 POLIESTER SPORT CABALLERO Y DAMA </p>
+        </div>
+        <div>
+          <div class="d-flex justify-content-between">
+            <span>Marca:</span><span>PLAYERYTEES</span>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span>Tallas:</span><span>CH - 4EG</span>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span>50% algodon-50% poliester</span>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between total font-weight-bold mt-4">
+          <span>Total</span><span>$7,197.00</span>
+        </div>
+      </div>-->
+    </div>
+  </div>
+
+  <div class="col-md-2 " *ngFor="let marca of marcas">
+    <h4 class="mt-0 mb-5">{{marcas[1]}}</h4>
+    <br>
+    <b>Tallas:</b> {{marca.tallas}}
+    <br>
+    <b>Peso:</b> {{marca.peso}}<sup>2</sup>
+    <br>
+    <b>Tejido:</b> Piqué
+    <br>
+    <b>Composición:</b>
+    {{marca.composicion}}
+  </div>
+
+
+  </div>
+</div>
+
+

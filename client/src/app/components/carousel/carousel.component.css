@@ -1,0 +1,47 @@
+.btn-primary{
+    background-color: #314f75;
+    border-color: #314f75;
+}
+
+/*.slide{
+    margin-top: 10px;
+}
+.slide img{
+    height: 65vh;
+}*/
+
+/*.carousel .item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 100%;
+}*/
+
+/*Prueba */
+.carousel-caption h1 {
+    font-weight: bold;
+    font-size: 1.2em; /* small size since this is the default in Bootstrap */
+    text-align:left;
+}
+
+.carousel-caption p {
+    font-size: 1em; /* small size since this is the default in Bootstrap */
+    text-align:left;
+}
+@media (min-width: 576px) { 
+  .carousel-caption h1 { font-size: 0.3em;}
+  .carousel-caption p {font-size: 1.1em;}  
+}
+@media (min-width: 768px) {
+  .carousel-caption h1 { font-size: 1.4em;}
+  .carousel-caption p {font-size: 1.2em;}  
+}
+@media (min-width: 992px) { 
+  .carousel-caption h1 { font-size: 1.5em;}
+  .carousel-caption p {font-size: 1.3em;}  
+}
+@media (min-width: 1200px) { 
+  .carousel-caption h1 { font-size: 1.6em;}
+  .carousel-caption p {font-size: 1.4em;}  
+}

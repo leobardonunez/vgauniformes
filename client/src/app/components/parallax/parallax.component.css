@@ -1,0 +1,15 @@
+/*svg*/
+.curved{
+    background: linear-gradient(#273B54 , #2F2F2F);
+}
+/*svg*/
+  /*barra*/
+  html {
+    overflow-x: hidden
+}
+
+@media (hover:none) {
+    body {
+        overflow-x: hidden
+    }
+}

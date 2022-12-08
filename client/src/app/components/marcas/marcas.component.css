@@ -1,0 +1,131 @@
+section{
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #7d879c;
+    --bs-gray-dark: #373f50;
+    --bs-gray-100: #f6f9fc;
+    --bs-gray-200: #f3f5f9;
+    --bs-gray-300: #e3e9ef;
+    --bs-gray-400: #dae1e7;
+    --bs-gray-500: #aeb4be;
+    --bs-gray-600: #7d879c;
+    --bs-gray-700: #4b566b;
+    --bs-gray-800: #373f50;
+    --bs-gray-900: #2b3445;
+    --bs-primary: #fe696a;
+    --bs-accent: #4e54c8;
+    --bs-secondary: #f3f5f9;
+    --bs-success: #42d697;
+    --bs-info: #69b3fe;
+    --bs-warning: #fea569;
+    --bs-danger: #f34770;
+    --bs-light: #fff;
+    --bs-dark: #373f50;
+    --bs-primary-rgb: 254, 105, 106;
+    --bs-accent-rgb: 78, 84, 200;
+    --bs-secondary-rgb: 243, 245, 249;
+    --bs-success-rgb: 66, 214, 151;
+    --bs-info-rgb: 105, 179, 254;
+    --bs-warning-rgb: 254, 165, 105;
+    --bs-danger-rgb: 243, 71, 112;
+    --bs-light-rgb: 255, 255, 255;
+    --bs-dark-rgb: 55, 63, 80;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 75, 86, 107;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: "Rubik", sans-serif;
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #4b566b;
+    --bs-body-bg: #fff;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.9375rem);
+    padding-left: var(--bs-gutter-x, 0.9375rem);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1260px;
+    margin-bottom: 1.5rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+.separacion{
+    padding: 10px;
+}
+
+
+
+
+/*Efectos*/
+.efect{
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+.efect:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+    
+    .box{position: relative;width: 100%;padding-right: 15px;padding-left: 15px}
+    .our-services{margin-top: 75px;padding-bottom: 30px;padding: 0 60px;min-height: 198px;text-align: center;border-radius: 10px;background-color: #fff;transition: all .4s ease-in-out;box-shadow: 0 0 25px 0 rgba(20,27,202,.17)}
+    .our-services .icon{margin-bottom: -21px;transform: translateY(-50%);text-align: center}
+    
+    .our-services:hover h4, .our-services:hover p{color: #fff}    
+    
+    .speedup:hover{box-shadow: 0 0 25px 0 rgba(20,27,201,.05);cursor: pointer;background-image: linear-gradient(-45deg, #fb0054 0%, #FC5844 100%)}
+    .settings:hover{box-shadow: 0 0 25px 0 rgba(20,27,201,.05);cursor: pointer;background-image: linear-gradient(-45deg, #34b5bf 0%, #1B2C44 100%)}
+    .privacy:hover{box-shadow: 0 0 25px 0 rgba(20,27,201,.05);cursor: pointer;background-image: linear-gradient(-45deg, #3615e7 0%, #2B82FC 100%)}
+      
+/*Efectos*/
+
+#marcas{
+    margin-top: 100px;
+}
+.modelos{
+    margin-top: 100px;
+}
+
+/*barra*/
+html {
+    overflow-x: hidden
+}
+
+@media (hover:none) {
+    body {
+        overflow-x: hidden
+    }
+}
+
+
+
+/*Pantalones css*/
+
+
+/*Pantalones css*/

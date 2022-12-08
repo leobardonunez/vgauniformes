@@ -1,0 +1,21 @@
+.hijo{
+    margin: 0 auto;
+
+    padding-left: 0 !important;
+padding-right: 0 !important;
+width: 100% !important;
+}
+#map{
+    margin-top: 100px;
+}
+
+/*barra*/
+html {
+    overflow-x: hidden
+}
+
+@media (hover:none) {
+    body {
+        overflow-x: hidden
+    }
+}
